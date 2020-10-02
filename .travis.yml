@@ -12,7 +12,7 @@ install:
 script:
   - .travis/travis_script.sh
 after_success:
-  - coveralls
+  - jumpsuit
 after_failure:
   - .travis/travis_after_failure.sh
 notifications:
